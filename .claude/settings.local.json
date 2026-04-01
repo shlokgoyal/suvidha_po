@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx expo:*)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(npm install:*)",
+      "Bash(export ANDROID_HOME=\"C:/Users/shlok/AppData/Local/Android/Sdk\")",
+      "Bash(export PATH=\"$ANDROID_HOME/platform-tools:$PATH\")",
+      "Bash(adb devices:*)",
+      "Bash(export ANDROID_HOME=\"$HOME/AppData/Local/Android/Sdk\")",
+      "Bash(curl -s \"http://localhost:8081/status\")",
+      "Bash(adb -s emulator-5554 shell pm list packages)",
+      "Bash(adb -s emulator-5554 shell am start -a android.intent.action.VIEW -d \"exp://10.0.2.2:8081\" host.exp.exponent)",
+      "Bash(curl -s \"http://localhost:8081/index.bundle?platform=android\" --max-time 5)",
+      "Bash(adb -s emulator-5554 reverse tcp:8081 tcp:8081)",
+      "Bash(adb -s emulator-5554 shell am start -a android.intent.action.VIEW -d \"exp://localhost:8081\" host.exp.exponent)",
+      "Bash(adb reverse:*)",
+      "Bash(adb -s emulator-5554 shell ping -c 3 192.168.29.239)",
+      "Bash(adb -s emulator-5554 shell dumpsys package host.exp.exponent)",
+      "Bash(adb -s emulator-5554 shell am start -a android.intent.action.VIEW -d \"exp://127.0.0.1:8081\" host.exp.exponent)",
+      "Bash(timeout 15 adb -s emulator-5554 logcat)",
+      "Bash(adb -s emulator-5554 shell am force-stop host.exp.exponent)"
+    ]
+  }
+}
