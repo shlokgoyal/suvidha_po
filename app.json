@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Suvidha PO",
+    "slug": "suvidha-po",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "suvidha-po",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F26522"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.suvidha.po"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F26522"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.suvidha.po"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "firebaseApiKey": "",
+      "firebaseAuthDomain": "",
+      "firebaseProjectId": "",
+      "firebaseStorageBucket": "",
+      "firebaseMessagingSenderId": "",
+      "firebaseAppId": "",
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
